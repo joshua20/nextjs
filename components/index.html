@@ -17,11 +17,12 @@
  function Homepage(){
     return(
         <div>
-            <Header />
+            <Header title="React" class="header" />
         </div>
     )
  }
-  function Header() {
+  function Header(props) {
+    console.log(props);
     return <h1>Develop. Preview. Ship.</h1>;
   }
  
