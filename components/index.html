@@ -15,9 +15,13 @@
 <script type="text/jsx">
   const app = document.getElementById('app');
  function Homepage(){
+    const names=['Nairobi','Mombasa','Kisumu'];
     return(
         <div>
             <Header title="React" class="header" />
+            <ul>
+                {names.map((name)=>(<li key={name}>{name}</li>))}
+            </ul>
         </div>
     )
  }
