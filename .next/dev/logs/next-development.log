@@ -1,0 +1,153 @@
+[00:00:01.255] Server  LOG     ✓ Ready in 883ms
+[00:00:07.542] Server  ERROR   ⨯ ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:00:08.701] Browser ERROR   uncaughtError: Error: ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:00:08.910] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:00:09.932] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:10.090] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:37.827] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:51.353] Server  ERROR   ⨯ ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:02:52.175] Server  ERROR   ⨯ ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:02:52.544] Browser ERROR   uncaughtError: Error: ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[00:02:52.738] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:02:52.738] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[00:12:32.826] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
