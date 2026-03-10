@@ -151,3 +151,219 @@ Ecmascript file had an error
 You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:28.933] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:28.933] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:28.933] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:28.933] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:28.933] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:30.003] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:38.218] Server  ERROR   ⨯ ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[01:45:38.593] Browser ERROR   uncaughtError: Error: ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[01:45:38.785] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:45:38.785] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:46:04.486] Server  ERROR   ⨯ ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[01:46:04.687] Browser ERROR   uncaughtError: Error: ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+
+[01:46:04.881] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:46:04.881] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:47:43.014] Browser ERROR   ./app/page.jsx:1:9
+Ecmascript file had an error
+> 1 | import {useState} from 'react';
+    |         ^^^^^^^^
+  2 |
+  3 | function Header({title}){
+  4 |     return <h1>{title ? title:'Default title'}</h1>
+
+You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+
+ Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+[01:51:48.284] Server  LOG     ✓ Compiled in 168ms
+[01:51:50.661] Server  ERROR   ⨯ ReferenceError: names is not defined
+[01:51:50.962] Browser ERROR   uncaughtError: ReferenceError: names is not defined
+[01:52:13.509] Server  LOG     ✓ Compiled in 6ms
+[01:52:15.575] Server  ERROR   ⨯ ReferenceError: Button is not defined
+[01:52:15.803] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
+[01:52:30.494] Server  LOG     ✓ Compiled in 19ms
+[01:52:32.566] Server  ERROR   ⨯ ReferenceError: LikeButton is not defined
+[01:52:32.804] Browser ERROR   uncaughtError: ReferenceError: LikeButton is not defined
+[01:53:15.016] Server  LOG     ✓ Compiled in 162ms
+[01:53:17.102] Server  ERROR   ⨯ ReferenceError: LikeButton is not defined
+[01:53:19.299] Browser ERROR   uncaughtError: ReferenceError: LikeButton is not defined
+[01:54:37.831] Server  LOG     ✓ Compiled in 40ms
+[01:54:39.890] Server  ERROR   ⨯ ReferenceError: LikeButton is not defined
+[01:54:40.208] Browser ERROR   uncaughtError: ReferenceError: LikeButton is not defined
+[01:55:12.114] Server  LOG     ✓ Compiled in 80ms
+[01:55:14.234] Server  ERROR   ⨯ TypeError: function is not iterable (cannot read property Symbol(Symbol.iterator))
+[01:55:14.544] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.544] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.544] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.544] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.544] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.544] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.622] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.622] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.622] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.622] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.622] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.622] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. {name}
+[01:55:14.622] Browser ERROR   uncaughtError: TypeError: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__.useState is not iterable
+[01:55:52.424] Server  LOG     ✓ Compiled in 9ms
+[01:55:54.511] Server  ERROR   ⨯ TypeError: function is not iterable (cannot read property Symbol(Symbol.iterator))
+[01:55:55.417] Browser ERROR   uncaughtError: TypeError: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__.useState is not iterable
+[01:56:19.294] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:56:19.319] Server  LOG     ✓ Compiled in 12ms
