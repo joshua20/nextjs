@@ -192,3 +192,78 @@ Parsing ecmascript source code failed
   37 |         />
 
 Expression expected
+[00:06:31.513] Server  LOG      ✓ Compiled in 1488ms
+[00:06:32.574] Browser ERROR   ./app/ui/home.module.css
+Error evaluating Node.js code
+CssSyntaxError: /home/joshua/personal/frontend/nextdashboard/nextjs-dashboard/app/ui/home.module.css:4:9: Unknown word
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/input.js:109:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:593:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:399:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:470:16)]
+    [at parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/lazy-result.js:133:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Server Component:
+    ./app/ui/home.module.css
+    ./app/page.tsx
+[00:06:32.574] Browser ERROR   ./app/layout.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import {inter} from '@/app/ui/fonts';
+  4 | =======
+> 5 | >>>>>>> 9162fa8 (dashboard clsx)
+    | ^^^^^^^
+  6 | export default function RootLayout({
+  7 |   children,
+  8 | }: {
+
+Merge conflict marker encountered.
+[00:06:32.574] Browser ERROR   ./app/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
+  11 | import Link from 'next/link';
+> 12 | >>>>>>> 9162fa8 (dashboard clsx)
+     | ^^^^^^^
+  13 | import { styleText } from 'util';
+  14 |
+  15 | export default function Page() {
+
+Merge conflict marker encountered.
+[00:06:49.385] Server  LOG      ✓ Compiled in 17ms
+[00:06:50.370] Browser ERROR   ./app/layout.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import {inter} from '@/app/ui/fonts';
+  4 | =======
+> 5 | >>>>>>> 9162fa8 (dashboard clsx)
+    | ^^^^^^^
+  6 | export default function RootLayout({
+  7 |   children,
+  8 | }: {
+
+Merge conflict marker encountered.
+[00:06:50.370] Browser ERROR   ./app/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
+  11 | import Link from 'next/link';
+> 12 | >>>>>>> 9162fa8 (dashboard clsx)
+     | ^^^^^^^
+  13 | import { styleText } from 'util';
+  14 |
+  15 | export default function Page() {
+
+Merge conflict marker encountered.
+[00:07:04.209] Browser ERROR   ./app/layout.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import {inter} from '@/app/ui/fonts';
+  4 | =======
+> 5 | >>>>>>> 9162fa8 (dashboard clsx)
+    | ^^^^^^^
+  6 | export default function RootLayout({
+  7 |   children,
+  8 | }: {
+
+Merge conflict marker encountered.
