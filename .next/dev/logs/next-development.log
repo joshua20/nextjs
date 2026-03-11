@@ -64,3 +64,35 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [01:48:31.881] Server  LOG      ✓ Compiled in 203ms
 [01:55:19.092] Server  LOG      ✓ Compiled in 181ms
 [01:55:20.081] Browser ERROR   React instrumentation encountered an error: %o {}
+[03:07:58.516] Server  LOG      ✓ Compiled in 724ms
+[03:07:58.751] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/ui/dashboard/sidenav.tsx
+    ./app/dashboard/layout.tsx
+[03:07:58.751] Browser ERROR   ./app/page.tsx:5:1
+Export lusita doesn't exist in target module
+  3 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
+  4 | import Link from 'next/link';
+> 5 | import {lusita} from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { styleText } from 'util';
+  7 | import Image from 'next/image';
+  8 |
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
