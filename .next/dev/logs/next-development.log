@@ -57,3 +57,10 @@ Expected ';', got '{'
 [00:12:48.951] Server  LOG      ✓ Compiled in 1508ms
 [00:14:55.227] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:30:27.616] Server  LOG      ✓ Compiled in 92ms
+[00:31:36.951] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:33:22.120] Server  LOG      ✓ Compiled in 74ms
+[01:48:31.881] Server  LOG      ✓ Compiled in 203ms
+[01:55:19.092] Server  LOG      ✓ Compiled in 181ms
+[01:55:20.081] Browser ERROR   React instrumentation encountered an error: %o {}
