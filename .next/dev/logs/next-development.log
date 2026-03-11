@@ -217,3 +217,132 @@ Import trace:
     ./app/ui/acme-logo.tsx
     ./app/ui/dashboard/sidenav.tsx
     ./app/dashboard/layout.tsx
+[03:14:54.548] Server  ERROR    ⨯ ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/page.tsx
+
+
+[03:14:54.928] Browser ERROR   uncaughtError: Error: ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/ui/dashboard/sidenav.tsx
+    ./app/dashboard/layout.tsx
+
+
+[03:14:55.101] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/ui/dashboard/sidenav.tsx
+    ./app/dashboard/layout.tsx
+[03:14:55.101] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/ui/dashboard/sidenav.tsx
+    ./app/dashboard/layout.tsx
+[03:14:55.101] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/ui/dashboard/sidenav.tsx
+    ./app/dashboard/layout.tsx
+[03:14:55.101] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/page.tsx
+[03:14:55.101] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
+Export lusita doesn't exist in target module
+  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
+> 2 | import { lusita } from '@/app/ui/fonts';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function AcmeLogo() {
+  5 |   return (
+
+The export lusita was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
+Did you mean to import lusitana?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/acme-logo.tsx
+    ./app/ui/dashboard/sidenav.tsx
+    ./app/dashboard/layout.tsx
+[03:15:31.660] Server  LOG      ✓ Compiled in 97ms
