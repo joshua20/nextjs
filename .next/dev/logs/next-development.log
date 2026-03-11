@@ -44,3 +44,16 @@ Parsing ecmascript source code failed
 
 Expected ';', got '{'
 [00:00:21.925] Server  LOG      ✓ Compiled in 74ms
+[00:07:48.321] Server  LOG      ✓ Compiled in 272ms
+[00:07:50.688] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:50.952] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:51.246] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:51.465] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:51.703] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:51.932] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:52.290] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:52.589] Server  ERROR    ⨯ Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:07:54.884] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/dashboard/invoices/layout"
+[00:12:48.951] Server  LOG      ✓ Compiled in 1508ms
+[00:14:55.227] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
