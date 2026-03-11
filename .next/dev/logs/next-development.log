@@ -59,3 +59,136 @@ Import trace:
     ./app/ui/acme-logo.tsx
     ./app/page.tsx
 [00:47:54.023] Server  LOG      ✓ Compiled in 111ms
+[00:01:58.654] Server  LOG      ✓ Compiled in 131ms
+[00:01:59.519] Browser ERROR   ./app/layout.tsx:13:4
+Parsing ecmascript source code failed
+  11 |   return (
+  12 |     <html lang="en">
+> 13 | <<<<<<< HEAD
+     |    ^^
+  14 |       <body className={'${inter.className} antialiased'}>{children}</body>
+  15 |     </html>
+  16 |   );
+
+Expression expected
+[00:01:59.519] Browser ERROR   ./app/layout.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import {inter} from '@/app/ui/fonts';
+  4 | =======
+> 5 | >>>>>>> 68b3395 (Initial commit from Create Next App)
+    | ^^^^^^^
+  6 | export default function RootLayout({
+  7 |   children,
+  8 | }: {
+
+Merge conflict marker encountered.
+[00:01:59.519] Browser ERROR   ./app/page.tsx:16:4
+Parsing ecmascript source code failed
+  14 |   return (
+  15 |     <main className="flex min-h-screen flex-col p-6">
+> 16 | <<<<<<< HEAD
+     |    ^^
+  17 |       <div className={styles.shape} />
+  18 |       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+  19 |         <AcmeLogo />
+
+Expression expected
+[00:01:59.520] Browser ERROR   ./app/page.tsx:11:1
+Parsing ecmascript source code failed
+   9 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
+  10 | import Link from 'next/link';
+> 11 | >>>>>>> 68b3395 (Initial commit from Create Next App)
+     | ^^^^^^^
+  12 |
+  13 | export default function Page() {
+  14 |   return (
+
+Merge conflict marker encountered.
+[00:03:07.962] Browser ERROR   ./app/layout.tsx:13:4
+Parsing ecmascript source code failed
+  11 |   return (
+  12 |     <html lang="en">
+> 13 | <<<<<<< HEAD
+     |    ^^
+  14 |       <body className={'${inter.className} antialiased'}>{children}</body>
+  15 |     </html>
+  16 |   );
+
+Expression expected
+[00:03:07.962] Browser ERROR   ./app/layout.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import {inter} from '@/app/ui/fonts';
+  4 | =======
+> 5 | >>>>>>> 68b3395 (Initial commit from Create Next App)
+    | ^^^^^^^
+  6 | export default function RootLayout({
+  7 |   children,
+  8 | }: {
+
+Merge conflict marker encountered.
+[00:03:07.962] Browser ERROR   ./app/page.tsx:16:4
+Parsing ecmascript source code failed
+  14 |   return (
+  15 |     <main className="flex min-h-screen flex-col p-6">
+> 16 | <<<<<<< HEAD
+     |    ^^
+  17 |       <div className={styles.shape} />
+  18 |       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+  19 |         <AcmeLogo />
+
+Expression expected
+[00:03:07.962] Browser ERROR   ./app/page.tsx:11:1
+Parsing ecmascript source code failed
+   9 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
+  10 | import Link from 'next/link';
+> 11 | >>>>>>> 68b3395 (Initial commit from Create Next App)
+     | ^^^^^^^
+  12 |
+  13 | export default function Page() {
+  14 |   return (
+
+Merge conflict marker encountered.
+[00:03:27.230] Browser ERROR   ./app/page.tsx:16:4
+Parsing ecmascript source code failed
+  14 |   return (
+  15 |     <main className="flex min-h-screen flex-col p-6">
+> 16 | <<<<<<< HEAD
+     |    ^^
+  17 |       <div className={styles.shape} />
+  18 |       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
+  19 |         <AcmeLogo />
+
+Expression expected
+[00:03:27.230] Browser ERROR   ./app/page.tsx:11:1
+Parsing ecmascript source code failed
+   9 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
+  10 | import Link from 'next/link';
+> 11 | >>>>>>> 68b3395 (Initial commit from Create Next App)
+     | ^^^^^^^
+  12 |
+  13 | export default function Page() {
+  14 |   return (
+
+Merge conflict marker encountered.
+[00:03:45.337] Browser ERROR   ./app/page.tsx:34:4
+Parsing ecmascript source code failed
+  32 |           {/* Add Hero Images Here */}
+  33 |         </div>
+> 34 | <<<<<<< HEAD
+     |    ^^
+  35 |         <div
+  36 |           className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
+  37 |         />
+
+Expression expected
+[00:03:45.337] Browser ERROR   ./app/page.tsx:34:4
+Parsing ecmascript source code failed
+  32 |           {/* Add Hero Images Here */}
+  33 |         </div>
+> 34 | <<<<<<< HEAD
+     |    ^^
+  35 |         <div
+  36 |           className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
+  37 |         />
+
+Expression expected
