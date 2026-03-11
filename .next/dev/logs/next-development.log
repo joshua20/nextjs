@@ -1,270 +1,46 @@
-[00:00:02.430] Server  LOG      ✓ Ready in 1628ms
-[00:00:05.724] Server  LOG      ○ Compiling / ...
-[00:00:14.473] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:36.898] Server  LOG      ✓ Compiled in 136ms
-[00:02:47.683] Server  LOG      ✓ Compiled in 238ms
-[00:14:55.037] Server  LOG      ✓ Compiled in 1201ms
-[00:15:04.763] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:19.203] Server  LOG      ✓ Compiled in 825ms
-[00:46:21.328] Server  LOG      ✓ Compiled in 435ms
-[00:46:21.477] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
-Export lusitana doesn't exist in target module
-  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
-> 2 | import { lusitana } from '@/app/ui/fonts';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function AcmeLogo() {
-  5 |   return (
-
-The export lusitana was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
-Did you mean to import lusita?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import trace:
-  Server Component:
-    ./app/ui/acme-logo.tsx
-    ./app/page.tsx
-[00:47:30.645] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
-Export lusitana doesn't exist in target module
-  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
-> 2 | import { lusitana } from '@/app/ui/fonts';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function AcmeLogo() {
-  5 |   return (
-
-The export lusitana was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
-Did you mean to import lusita?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import trace:
-  Server Component:
-    ./app/ui/acme-logo.tsx
-    ./app/page.tsx
-[00:47:30.796] Browser ERROR   ./app/ui/acme-logo.tsx:2:1
-Export lusitana doesn't exist in target module
-  1 | import { GlobeAltIcon } from '@heroicons/react/24/outline';
-> 2 | import { lusitana } from '@/app/ui/fonts';
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function AcmeLogo() {
-  5 |   return (
-
-The export lusitana was not found in module [project]/app/ui/fonts.ts [app-rsc] (ecmascript).
-Did you mean to import lusita?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import trace:
-  Server Component:
-    ./app/ui/acme-logo.tsx
-    ./app/page.tsx
-[00:47:54.023] Server  LOG      ✓ Compiled in 111ms
-[00:01:58.654] Server  LOG      ✓ Compiled in 131ms
-[00:01:59.519] Browser ERROR   ./app/layout.tsx:13:4
+[00:00:01.886] Server  LOG      ✓ Ready in 1387ms
+[00:00:04.324] Server  ERROR    ⨯ ./app/dashboard/page.tsx:1:22
 Parsing ecmascript source code failed
-  11 |   return (
-  12 |     <html lang="en">
-> 13 | <<<<<<< HEAD
-     |    ^^
-  14 |       <body className={'${inter.className} antialiased'}>{children}</body>
-  15 |     </html>
-  16 |   );
+> 1 | export default page(){
+    |                      ^
+  2 |     return <p>Dashboard page.</p>
+  3 | }
 
-Expression expected
-[00:01:59.519] Browser ERROR   ./app/layout.tsx:5:1
+Expected ';', got '{'
+
+
+[00:00:07.318] Browser ERROR   ./app/dashboard/page.tsx:1:22
 Parsing ecmascript source code failed
-  3 | import {inter} from '@/app/ui/fonts';
-  4 | =======
-> 5 | >>>>>>> 68b3395 (Initial commit from Create Next App)
-    | ^^^^^^^
-  6 | export default function RootLayout({
-  7 |   children,
-  8 | }: {
+> 1 | export default page(){
+    |                      ^
+  2 |     return <p>Dashboard page.</p>
+  3 | }
 
-Merge conflict marker encountered.
-[00:01:59.519] Browser ERROR   ./app/page.tsx:16:4
+Expected ';', got '{'
+[00:00:07.318] Browser ERROR   ./app/dashboard/page.tsx:1:22
 Parsing ecmascript source code failed
-  14 |   return (
-  15 |     <main className="flex min-h-screen flex-col p-6">
-> 16 | <<<<<<< HEAD
-     |    ^^
-  17 |       <div className={styles.shape} />
-  18 |       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-  19 |         <AcmeLogo />
+> 1 | export default page(){
+    |                      ^
+  2 |     return <p>Dashboard page.</p>
+  3 | }
 
-Expression expected
-[00:01:59.520] Browser ERROR   ./app/page.tsx:11:1
+Expected ';', got '{'
+[00:00:07.318] Browser ERROR   uncaughtError: Error: ./app/dashboard/page.tsx:1:22
 Parsing ecmascript source code failed
-   9 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
-  10 | import Link from 'next/link';
-> 11 | >>>>>>> 68b3395 (Initial commit from Create Next App)
-     | ^^^^^^^
-  12 |
-  13 | export default function Page() {
-  14 |   return (
+> 1 | export default page(){
+    |                      ^
+  2 |     return <p>Dashboard page.</p>
+  3 | }
 
-Merge conflict marker encountered.
-[00:03:07.962] Browser ERROR   ./app/layout.tsx:13:4
+Expected ';', got '{'
+
+
+[00:00:13.652] Browser ERROR   ./app/dashboard/page.tsx:1:22
 Parsing ecmascript source code failed
-  11 |   return (
-  12 |     <html lang="en">
-> 13 | <<<<<<< HEAD
-     |    ^^
-  14 |       <body className={'${inter.className} antialiased'}>{children}</body>
-  15 |     </html>
-  16 |   );
+> 1 | export default page(){
+    |                      ^
+  2 |     return <p>Dashboard page.</p>;
+  3 | }
 
-Expression expected
-[00:03:07.962] Browser ERROR   ./app/layout.tsx:5:1
-Parsing ecmascript source code failed
-  3 | import {inter} from '@/app/ui/fonts';
-  4 | =======
-> 5 | >>>>>>> 68b3395 (Initial commit from Create Next App)
-    | ^^^^^^^
-  6 | export default function RootLayout({
-  7 |   children,
-  8 | }: {
-
-Merge conflict marker encountered.
-[00:03:07.962] Browser ERROR   ./app/page.tsx:16:4
-Parsing ecmascript source code failed
-  14 |   return (
-  15 |     <main className="flex min-h-screen flex-col p-6">
-> 16 | <<<<<<< HEAD
-     |    ^^
-  17 |       <div className={styles.shape} />
-  18 |       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-  19 |         <AcmeLogo />
-
-Expression expected
-[00:03:07.962] Browser ERROR   ./app/page.tsx:11:1
-Parsing ecmascript source code failed
-   9 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
-  10 | import Link from 'next/link';
-> 11 | >>>>>>> 68b3395 (Initial commit from Create Next App)
-     | ^^^^^^^
-  12 |
-  13 | export default function Page() {
-  14 |   return (
-
-Merge conflict marker encountered.
-[00:03:27.230] Browser ERROR   ./app/page.tsx:16:4
-Parsing ecmascript source code failed
-  14 |   return (
-  15 |     <main className="flex min-h-screen flex-col p-6">
-> 16 | <<<<<<< HEAD
-     |    ^^
-  17 |       <div className={styles.shape} />
-  18 |       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-  19 |         <AcmeLogo />
-
-Expression expected
-[00:03:27.230] Browser ERROR   ./app/page.tsx:11:1
-Parsing ecmascript source code failed
-   9 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
-  10 | import Link from 'next/link';
-> 11 | >>>>>>> 68b3395 (Initial commit from Create Next App)
-     | ^^^^^^^
-  12 |
-  13 | export default function Page() {
-  14 |   return (
-
-Merge conflict marker encountered.
-[00:03:45.337] Browser ERROR   ./app/page.tsx:34:4
-Parsing ecmascript source code failed
-  32 |           {/* Add Hero Images Here */}
-  33 |         </div>
-> 34 | <<<<<<< HEAD
-     |    ^^
-  35 |         <div
-  36 |           className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
-  37 |         />
-
-Expression expected
-[00:03:45.337] Browser ERROR   ./app/page.tsx:34:4
-Parsing ecmascript source code failed
-  32 |           {/* Add Hero Images Here */}
-  33 |         </div>
-> 34 | <<<<<<< HEAD
-     |    ^^
-  35 |         <div
-  36 |           className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"
-  37 |         />
-
-Expression expected
-[00:06:31.513] Server  LOG      ✓ Compiled in 1488ms
-[00:06:32.574] Browser ERROR   ./app/ui/home.module.css
-Error evaluating Node.js code
-CssSyntaxError: /home/joshua/personal/frontend/nextdashboard/nextjs-dashboard/app/ui/home.module.css:4:9: Unknown word
-    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/input.js:109:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:593:22)]
-    [at Parser.decl (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:236:16)]
-    [at Parser.other (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:399:18)]
-    [at Parser.parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parser.js:470:16)]
-    [at parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/lazy-result.js:133:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.1/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-
-Import trace:
-  Server Component:
-    ./app/ui/home.module.css
-    ./app/page.tsx
-[00:06:32.574] Browser ERROR   ./app/layout.tsx:5:1
-Parsing ecmascript source code failed
-  3 | import {inter} from '@/app/ui/fonts';
-  4 | =======
-> 5 | >>>>>>> 9162fa8 (dashboard clsx)
-    | ^^^^^^^
-  6 | export default function RootLayout({
-  7 |   children,
-  8 | }: {
-
-Merge conflict marker encountered.
-[00:06:32.574] Browser ERROR   ./app/page.tsx:12:1
-Parsing ecmascript source code failed
-  10 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
-  11 | import Link from 'next/link';
-> 12 | >>>>>>> 9162fa8 (dashboard clsx)
-     | ^^^^^^^
-  13 | import { styleText } from 'util';
-  14 |
-  15 | export default function Page() {
-
-Merge conflict marker encountered.
-[00:06:49.385] Server  LOG      ✓ Compiled in 17ms
-[00:06:50.370] Browser ERROR   ./app/layout.tsx:5:1
-Parsing ecmascript source code failed
-  3 | import {inter} from '@/app/ui/fonts';
-  4 | =======
-> 5 | >>>>>>> 9162fa8 (dashboard clsx)
-    | ^^^^^^^
-  6 | export default function RootLayout({
-  7 |   children,
-  8 | }: {
-
-Merge conflict marker encountered.
-[00:06:50.370] Browser ERROR   ./app/page.tsx:12:1
-Parsing ecmascript source code failed
-  10 | import { ArrowRightIcon } from '@heroicons/react/24/outline';
-  11 | import Link from 'next/link';
-> 12 | >>>>>>> 9162fa8 (dashboard clsx)
-     | ^^^^^^^
-  13 | import { styleText } from 'util';
-  14 |
-  15 | export default function Page() {
-
-Merge conflict marker encountered.
-[00:07:04.209] Browser ERROR   ./app/layout.tsx:5:1
-Parsing ecmascript source code failed
-  3 | import {inter} from '@/app/ui/fonts';
-  4 | =======
-> 5 | >>>>>>> 9162fa8 (dashboard clsx)
-    | ^^^^^^^
-  6 | export default function RootLayout({
-  7 |   children,
-  8 | }: {
-
-Merge conflict marker encountered.
-[02:28:57.191] Server  LOG      ✓ Compiled in 903ms
+Expected ';', got '{'
+[00:00:21.925] Server  LOG      ✓ Compiled in 74ms
