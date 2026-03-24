@@ -1,6 +1,459 @@
-[00:00:01.739] Server  LOG      ✓ Ready in 1351ms
-[00:19:17.306] Server  LOG      ○ Compiling / ...
-[00:19:19.435] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:19:34.505] Browser WARN    Image with src "/hero-desktop.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:01.345] Server  LOG      ✓ Ready in 952ms
+[00:00:08.795] Server  LOG      ○ Compiling /dashboard/overview ...
+[00:00:16.557] Server  LOG     Fetching revenue data...
+[00:00:19.813] Server  LOG     Data fetch completed after 3 seconds.
+[00:00:32.108] Server  LOG     Fetching revenue data...
+[00:00:35.354] Server  LOG     Data fetch completed after 3 seconds.
+[00:04:46.841] Server  LOG     Fetching revenue data...
+[00:04:50.074] Server  LOG     Data fetch completed after 3 seconds.
+[00:10:56.938] Server  LOG      ✓ Compiled in 109ms
+[00:11:06.802] Server  LOG     Fetching revenue data...
+[00:11:10.063] Server  LOG     Data fetch completed after 3 seconds.
+[00:11:10.601] Server  LOG     Fetching revenue data...
+[00:11:13.847] Server  LOG     Data fetch completed after 3 seconds.
+[00:12:39.740] Server  LOG      ✓ Compiled in 91ms
+[00:12:47.698] Server  LOG     Fetching revenue data...
+[00:12:50.935] Server  LOG     Data fetch completed after 3 seconds.
+[00:12:51.496] Server  LOG     Fetching revenue data...
+[00:12:54.778] Server  LOG     Data fetch completed after 3 seconds.
+[00:14:08.835] Server  LOG      ✓ Compiled in 67ms
+[00:14:15.846] Server  LOG     Fetching revenue data...
+[00:14:19.035] Server  LOG     Fetching revenue data...
+[00:14:19.574] Server  LOG     Data fetch completed after 3 seconds.
+[00:14:22.728] Server  LOG     Data fetch completed after 3 seconds.
+[01:00:11.001] Server  LOG      ✓ Compiled in 172ms
+[01:11:11.336] Server  LOG     Fetching revenue data...
+[01:11:14.581] Server  LOG     Data fetch completed after 3 seconds.
+[01:11:32.768] Server  LOG     Fetching revenue data...
+[01:11:36.015] Server  LOG     Data fetch completed after 3 seconds.
+[01:14:51.148] Server  LOG      ✓ Compiled in 57ms
+[01:14:53.615] Server  LOG     Fetching revenue data...
+[01:14:56.877] Server  LOG     Data fetch completed after 3 seconds.
+[01:15:02.876] Server  LOG     Fetching revenue data...
+[01:15:06.112] Server  LOG     Data fetch completed after 3 seconds.
+[01:15:38.676] Server  LOG      ✓ Compiled in 60ms
+[01:16:06.023] Browser LOG     Searching... d
+[01:16:06.278] Browser LOG     Searching... de
+[01:16:30.204] Browser LOG     Searching... D
+[01:22:18.715] Server  LOG      ✓ Compiled in 130ms
+[01:22:19.782] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:22:19.782] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:22:19.835] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:22:19.835] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:22:26.155] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:22:26.215] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:25:06.597] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:25:07.148] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:27:45.363] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:27:45.412] Browser ERROR   ./app/ui/search.tsx:41:2
+Parsing ecmascript source code failed
+  39 |     </div>
+  40 |   );
+> 41 | }
+     |  ^
+  42 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[01:28:33.564] Server  LOG      ✓ Compiled in 83ms
+[01:28:33.954] Browser ERROR   uncaughtError: ReferenceError: placeholder is not defined
+[01:29:31.945] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:29:31.968] Server  LOG      ✓ Compiled in 67ms
+[01:29:44.122] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:44.280] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:46.863] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:47.217] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:48.746] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:49.020] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:49.193] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:51.888] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:29:52.050] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:30:15.938] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:30:16.124] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:30:16.330] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:30:21.469] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:30:21.639] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[01:33:56.273] Browser ERROR   ./app/dashboard/invoices/page.tsx:20:5
+Parsing ecmascript source code failed
+  18 |     const currentPage = Number(searchParams?.page) || 1;
+  19 |     const
+> 20 |     return (
+     |     ^^^^^^
+  21 |         <div className="w-full">
+  22 |             <div className="flex w-full items-center justify-between">
+  23 |                 <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>
+
+Expected ident
+[01:33:56.273] Browser ERROR   ./app/dashboard/invoices/page.tsx:20:5
+Parsing ecmascript source code failed
+  18 |     const currentPage = Number(searchParams?.page) || 1;
+  19 |     const
+> 20 |     return (
+     |     ^^^^^^
+  21 |         <div className="w-full">
+  22 |             <div className="flex w-full items-center justify-between">
+  23 |                 <h1 className={`${lusitana.className} text-2xl`}>Invoices</h1>
+
+Expected ident
+[01:34:03.044] Server  LOG      ✓ Compiled in 64ms
+[01:34:31.376] Server  LOG      ✓ Compiled in 98ms
+[01:37:19.903] Server  LOG      ✓ Compiled in 91ms
+[01:40:41.287] Server  LOG      ✓ Compiled in 74ms
+[03:30:15.549] Server  LOG      ✓ Compiled in 1179ms
+[03:30:16.694] Browser ERROR   ./app/ui/search.tsx:42:2
+Parsing ecmascript source code failed
+  40 |     </div>
+  41 |   );
+> 42 | }
+     |  ^
+  43 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[03:30:43.952] Browser ERROR   ./app/ui/search.tsx:42:2
+Parsing ecmascript source code failed
+  40 |     </div>
+  41 |   );
+> 42 | }
+     |  ^
+  43 |
+
+Expected '}', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/ui/search.tsx
+    ./app/dashboard/invoices/page.tsx
+[03:30:59.570] Server  LOG      ✓ Compiled in 142ms
+[03:31:03.614] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:03.869] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:04.030] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:06.325] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:06.578] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:09.785] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:10.027] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:10.461] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:11.413] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:12.983] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[03:31:13.190] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[04:01:02.285] Server  LOG      ✓ Compiled in 426ms
+[04:01:02.287] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.10_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[04:01:05.712] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/dashboard/invoices. Falling back to browser navigation. {}
+[04:27:28.356] Server  LOG      ✓ Compiled in 74ms
+[04:28:27.557] Browser ERROR   ./app/ui/invoices/create-form.tsx:3:1
+Export createInvoice doesn't exist in target module
+  1 | import { CustomerField } from '@/app/lib/definitions';
+  2 | import Link from 'next/link';
+> 3 | import {createInvoice} from '@/app/lib/actions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   CheckIcon,
+  6 |   ClockIcon,
+
+The export createInvoice was not found in module [project]/app/lib/actions.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/invoices/create-form.tsx
+    ./app/dashboard/invoices/create/page.tsx
+[04:28:28.142] Browser ERROR   ./app/ui/invoices/create-form.tsx:3:1
+Export createInvoice doesn't exist in target module
+  1 | import { CustomerField } from '@/app/lib/definitions';
+  2 | import Link from 'next/link';
+> 3 | import {createInvoice} from '@/app/lib/actions';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import {
+  5 |   CheckIcon,
+  6 |   ClockIcon,
+
+The export createInvoice was not found in module [project]/app/lib/actions.ts [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./app/ui/invoices/create-form.tsx
+    ./app/dashboard/invoices/create/page.tsx
+[04:30:33.758] Server  LOG      ✓ Compiled in 286ms
+[04:32:09.788] Server  LOG     {}
+[04:33:45.679] Server  LOG     {}
+[04:34:48.542] Server  LOG      ✓ Compiled in 81ms
+[04:35:17.135] Server  LOG     {}
+[04:35:37.599] Server  LOG     {}
+[04:58:27.929] Server  LOG      ✓ Compiled in 300ms
+[05:07:28.395] Server  LOG      ✓ Compiled in 66ms
+[05:09:04.083] Server  LOG      ✓ Compiled in 65ms
+[05:12:07.281] Server  LOG      ✓ Compiled in 72ms
+[05:13:13.476] Server  LOG      ✓ Compiled in 467ms
+[05:13:40.488] Server  LOG      ✓ Compiled in 85ms
+[05:14:12.175] Server  LOG      ✓ Compiled in 106ms
+[05:14:42.290] Server  ERROR   TypeError: Cannot set property message of [object Object] which has only a getter
+[05:14:42.302] Server  ERROR    ⨯ "unhandledRejection:" TypeError: Cannot set property message of [object Object] which has only a getter
+[05:14:42.313] Server  ERROR    ⨯ "unhandledRejection: " TypeError: Cannot set property message of [object Object] which has only a getter
+[05:14:42.451] Browser ERROR   uncaughtError: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "nan",
+    "path": [
+      "customerId"
+    ],
+    "message": "Expected number, received nan"
+  }
+]
+[05:20:05.144] Server  ERROR   TypeError: Cannot set property message of [object Object] which has only a getter
+[05:20:05.152] Server  ERROR    ⨯ "unhandledRejection:" TypeError: Cannot set property message of [object Object] which has only a getter
+[05:20:05.166] Server  ERROR    ⨯ "unhandledRejection: " TypeError: Cannot set property message of [object Object] which has only a getter
+[05:20:05.327] Browser ERROR   uncaughtError: ZodError: [
+  {
+    "code": "invalid_type",
+    "expected": "number",
+    "received": "nan",
+    "path": [
+      "customerId"
+    ],
+    "message": "Expected number, received nan"
+  }
+]
+[05:23:22.903] Server  LOG      ✓ Compiled in 80ms
+[05:26:18.188] Server  ERROR   TypeError: Cannot set property message of [object Object] which has only a getter
+[05:26:18.200] Server  ERROR    ⨯ "unhandledRejection:" TypeError: Cannot set property message of [object Object] which has only a getter
+[05:26:18.216] Server  ERROR    ⨯ "unhandledRejection: " TypeError: Cannot set property message of [object Object] which has only a getter
+[05:26:18.339] Browser ERROR   uncaughtError: ZodError: [
+  {
+    "expected": "'pending' | 'paid'",
+    "received": "null",
+    "code": "invalid_type",
+    "path": [
+      "status"
+    ],
+    "message": "Expected 'pending' | 'paid', received null"
+  }
+]
